@@ -169,7 +169,7 @@ chown apache /var/log/php
 echo Downloading openorg-aws-setup ...
 cd /var/www
 git clone git://github.com/dooglus/openorg-aws-setup.git
-mv openorg-aws-setup/scripts/startsandbox.php /var/www/html/
+mv openorg-aws-setup/startsandbox.php /var/www/html/
 chown apache openorg-aws-setup/
 
 
